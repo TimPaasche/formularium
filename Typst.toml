@@ -1,0 +1,13 @@
+[package]
+name = "formularium"
+version = "0.0.1"
+compiler = "0.13.0"
+repository = ""
+entrypoint = "src/formularium-functions.typ"
+authors = [
+  "Tim Paasche <https://github.com/johannes-wolf>",
+]
+license = "MIT"
+description = "Formularium is a Typst package for creating clean, structured glossaries of formula symbols. Ideal for scientific and technical documents, it helps you list and explain mathematical or physical symbols with consistent formatting and clear layout."
+keywords = [ "Formula", "Glossary"]
+exclude = [ "/examples/*", "manual.pdf", "manual.typ" ]
